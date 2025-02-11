@@ -172,7 +172,7 @@ app-navbar{
                 top: 2px;
                 width: 35px; 
                 height: 35px;
-                background: url(/assets/images/logout.png) no-repeat top left;
+                background: url(../../images/logout.png) no-repeat top left;
                 background-size: contain;
                 z-index: 1;           
                 @media screen and (map-get($rd-types, sm)){
