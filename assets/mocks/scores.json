@@ -1,0 +1,90 @@
+[
+    {
+      "id": "1",
+      "user": "merino@softtek.com",
+      "date": "2025-01-02T09:44:27Z",
+      "gameId": 1,
+      "gameName": "integrity week 2020",
+      "score": 20
+    },
+    {
+      "id": "2",
+      "user": "merino@softtek.com",
+      "date": "2025-01-02T11:00:00Z",
+      "gameId": 1,
+      "gameName": "integrity week 2020",
+      "score": 40
+    },
+    {
+      "id": "3",
+      "user": "merino@softtek.com",
+      "date": "2025-01-02T12:00:00Z",
+      "gameId": 1,
+      "gameName": "integrity week 2020",
+      "score": 10
+    },
+    {
+      "id": "4",
+      "user": "merino@softtek.com",
+      "date": "2025-01-02T22:00:00Z",
+      "gameId": 1,
+      "gameName": "integrity week 2020",
+      "score": 70
+    },
+    {
+      "id": "e632",
+      "gameId": 2,
+      "gameName": "softtekian day 2020",
+      "userName": "merino@softtek.com",
+      "score": 50,
+      "date": "2025-1-3T8:34:13Z"
+    },
+    {
+      "id": "d096",
+      "gameId": 2,
+      "gameName": "softtekian day 2020",
+      "userName": "merino@softtek.com",
+      "score": 20,
+      "date": "2025-1-3T8:41:16Z"
+    },
+    {
+      "id": "90d9",
+      "gameId": 1,
+      "gameName": "integrity week 2020",
+      "userName": "merino@softtek.com",
+      "score": 30,
+      "date": "2025-1-3T9:14:3Z"
+    },
+    {
+      "id": "20f7",
+      "gameId": 2,
+      "gameName": "softtekian day 2020",
+      "userName": "merino@softtek.com",
+      "score": 30,
+      "date": "2025-1-3T9:16:16Z"
+    },
+    {
+      "id": "9965",
+      "gameId": 2,
+      "gameName": "softtekian day 2020",
+      "userName": "merino@softtek.com",
+      "score": 20,
+      "date": "2025-1-3T9:47:28Z"
+    },
+    {
+      "id": "2582",
+      "gameId": 1,
+      "gameName": "integrity week 2020",
+      "userName": "merino@softtek.com",
+      "score": 60,
+      "date": "2025-1-3T14:40:30Z"
+    },
+    {
+      "id": "c2fa",
+      "gameId": 1,
+      "gameName": "integrity week 2020",
+      "userName": "merino@softtek.com",
+      "score": 50,
+      "date": "2025-1-5T9:36:25Z"
+    }
+  ]

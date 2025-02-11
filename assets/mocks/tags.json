@@ -1,26 +1,53 @@
 [
     {
-        "id":1, 
-        "dataTrad":[
-                {"idi":1,"ds":"es_tag1"},
-                {"idi":2,"ds":"en_tag1"},
-                {"idi":3,"ds":"pt_tag1"}
-        ] 
+      "dataTrad": [
+        {
+          "idi": 1,
+          "ds": "es_Básico"
+        },
+        {
+          "idi": 2,
+          "ds": "en_Básico"
+        },
+        {
+          "idi": 3,
+          "ds": "pt_Básico"
+        }
+      ],
+      "id": "1"
     },
     {
-        "id":2, 
-        "dataTrad":[
-                {"idi":1,"ds":"es_tag2"},
-                {"idi":2,"ds":"en_tag2"},
-                {"idi":3,"ds":"pt_tag2"}
-        ] 
-    },    
+      "dataTrad": [
+        {
+          "idi": 1,
+          "ds": "es_Moderado"
+        },
+        {
+          "idi": 2,
+          "ds": "en_Moderado"
+        },
+        {
+          "idi": 3,
+          "ds": "pt_Moderado"
+        }
+      ],
+      "id": "2"
+    },
     {
-        "id":3, 
-        "dataTrad":[
-                {"idi":1,"ds":"es_tag3"},
-                {"idi":2,"ds":"en_tag3"},
-                {"idi":3,"ds":"pt_tag3"}
-        ] 
+      "dataTrad": [
+        {
+          "idi": 1,
+          "ds": "es_Complejo"
+        },
+        {
+          "idi": 2,
+          "ds": "en_Complejo"
+        },
+        {
+          "idi": 3,
+          "ds": "pt_Complejoa"
+        }
+      ],
+      "id": "3"
     }
-]
+  ]

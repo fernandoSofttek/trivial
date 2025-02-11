@@ -1,82 +1,146 @@
 [
-    {
-      "id": 1,
-      "type": 1,
-      "desc": "Camp aa",
-      "categories": [
-        {
-          "id": 6,
-          "color": 6,
-          "dataTrad": [
-            { "idi": 1, "ds": "Nuestra historia" },
-            { "idi": 2, "ds": "Our history" },
-            { "idi": 3, "ds": "Nossa história" }
-          ]
-        },
-        {
-          "id": 10,
-          "color": 10,
-          "dataTrad": [
-            { "idi": 1, "ds": "Somos Softtek" },
-            { "idi": 2, "ds": "We are Softtek" },
-            { "idi": 3, "ds": "Nós somos a Softtek" }
-          ]
-        },
-        {
-          "id": 11,
-          "color": 1,
-          "dataTrad": [
-            { "idi": 1, "ds": "Herramientas y Procesos" },
-            { "idi": 2, "ds": "Tools and Processes" },
-            { "idi": 3, "ds": "Ferramentas e Processos" }
-          ]
-        }
-      ],
-      "timer": 10,
-      "questions": 10,
-      "activated": true,
-      "dateActivation": "2000-02-02T15:30:00+00:00",
-      "dateEndActivation": "",
-      "pulpos": {
-        "yes": true,
-        "amount": 4,
-        "every": 3
+  {
+    "type": 1,
+    "desc": "integrity week 2020",
+    "timer": 10,
+    "questions": 10,
+    "difficult": 10,
+    "categories": [
+      {
+        "id": "11",
+        "color": 1,
+        "dataTrad": [
+          {
+            "idi": 1,
+            "ds": "Herramientas y Procesos"
+          },
+          {
+            "idi": 2,
+            "ds": "Tools and Processes"
+          },
+          {
+            "idi": 3,
+            "ds": "Ferramentas e Processos"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "color": 6,
+        "dataTrad": [
+          {
+            "idi": 1,
+            "ds": "Nuestra historia"
+          },
+          {
+            "idi": 2,
+            "ds": "Our history"
+          },
+          {
+            "idi": 3,
+            "ds": "Nossa história"
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "color": 2,
+        "dataTrad": [
+          {
+            "idi": 1,
+            "ds": "Quienes somos en EMEA"
+          },
+          {
+            "idi": 2,
+            "ds": "Who we are in EMEA"
+          },
+          {
+            "idi": 3,
+            "ds": "Quem somos na EMEA"
+          }
+        ]
+      },
+      {
+        "color": 4,
+        "dataTrad": [
+          {
+            "idi": 1,
+            "ds": "Somos Softtek"
+          },
+          {
+            "idi": 2,
+            "ds": "We are Softtek"
+          },
+          {
+            "idi": 3,
+            "ds": "Nós somos a Softtek"
+          }
+        ],
+        "id": "10"
       }
+    ],
+    "activated": false,
+    "dateActivation": "2000-02-02T00:00:00.000Z",
+    "dateEndActivation": "",
+    "pulpos": {
+      "yes": true,
+      "amount": 4,
+      "every": 3
     },
-    {
-      "id": 2,
-      "type": 1,
-      "desc": "Camp bb",
-      "categories": [
-        {
-          "id": 6,
-          "color": 6,
-          "dataTrad": [
-            { "idi": 1, "ds": "Nuestra historia" },
-            { "idi": 2, "ds": "Our history" },
-            { "idi": 3, "ds": "Nossa história" }
-          ]
-        },
-        {
-          "id": 7,
-          "color": 7,
-          "dataTrad": [
-            { "idi": 1, "ds": "Cómo nos organizamos" },
-            { "idi": 2, "ds": "How do we organize?" },
-            { "idi": 3, "ds": "Como nos organizamos" }
-          ]
-        }
-      ],
-      "timer": 20,
-      "questions": 10,
-      "activated": false,
-      "dateActivation": "2025-02-02T15:30:00+00:00",
-      "dateEndActivation": "2025-02-05T15:30:00+00:00",
-      "pulpos": {
-        "yes": false,
-        "amount": 0,
-        "every": 0
+    "id": "1"
+  },
+  {
+    "type": 1,
+    "desc": "softtekian day 2020",
+    "timer": 20,
+    "questions": 10,
+    "categories": [
+      {
+        "id": "6",
+        "color": 6,
+        "dataTrad": [
+          {
+            "idi": 1,
+            "ds": "Nuestra historia"
+          },
+          {
+            "idi": 2,
+            "ds": "Our history"
+          },
+          {
+            "idi": 3,
+            "ds": "Nossa história"
+          }
+        ]
+      },
+      {
+        "color": 4,
+        "dataTrad": [
+          {
+            "idi": 1,
+            "ds": "Somos Softtek"
+          },
+          {
+            "idi": 2,
+            "ds": "We are Softtek"
+          },
+          {
+            "idi": 3,
+            "ds": "Nós somos a Softtek"
+          }
+        ],
+        "id": "10"
       }
-    }
-  ]
-  
+    ],
+    "activated": true,
+    "difficult": 0,
+    "dateActivation": "2025-02-09T00:00:00.000Z",
+    "dateEndActivation": "2025-02-13T00:00:00.000Z",
+    "pulpos": {
+      "yes": false,
+      "amount": 0,
+      "every": 0
+    },
+    "id": "2"
+  }
+]

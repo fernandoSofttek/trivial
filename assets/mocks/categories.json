@@ -1,110 +1,218 @@
 [
         {
-                "id": 1,
-                "color": 1,
-                "dataTrad": [
-                { "idi": 1, "ds": "Herramientas" },
-                { "idi": 2, "ds": "Tools" },
-                { "idi": 3, "ds": "Ferramentas" }
-                ]
+          "id": "1",
+          "color": 1,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Herramientas"
+            },
+            {
+              "idi": 2,
+              "ds": "Tools"
+            },
+            {
+              "idi": 3,
+              "ds": "Ferramentas"
+            }
+          ]
         },
         {
-                "id": 2,
-                "color": 2,
-                "dataTrad": [
-                { "idi": 1, "ds": "Lenguaje Softtek" },
-                { "idi": 2, "ds": "Softtek Language" },
-                { "idi": 3, "ds": "Linguagem Softtek" }
-                ]
+          "id": "2",
+          "color": 2,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Lenguaje Softtek"
+            },
+            {
+              "idi": 2,
+              "ds": "Softtek Language"
+            },
+            {
+              "idi": 3,
+              "ds": "Linguagem Softtek"
+            }
+          ]
         },
         {
-                "id": 3,
-                "color": 3,
-                "dataTrad": [
-                { "idi": 1, "ds": "Compañía" },
-                { "idi": 2, "ds": "Company" },
-                { "idi": 3, "ds": "Empresa" }
-                ]
+          "id": "3",
+          "color": 3,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Compañía"
+            },
+            {
+              "idi": 2,
+              "ds": "Company"
+            },
+            {
+              "idi": 3,
+              "ds": "Empresa"
+            }
+          ]
         },
         {
-                "id": 4,
-                "color": 4,
-                "dataTrad": [
-                { "idi": 1, "ds": "Equipo" },
-                { "idi": 2, "ds": "Equipment" },
-                { "idi": 3, "ds": "Equipamento" }
-                ]
+          "id": "4",
+          "color": 4,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Equipo"
+            },
+            {
+              "idi": 2,
+              "ds": "Equipment"
+            },
+            {
+              "idi": 3,
+              "ds": "Equipamento"
+            }
+          ]
         },
         {
-                "id": 5,
-                "color": 5,
-                "dataTrad": [
-                { "idi": 1, "ds": "Clientes" },
-                { "idi": 2, "ds": "Customers" },
-                { "idi": 3, "ds": "Clientes" }
-                ]
+          "color": 5,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Clientess"
+            },
+            {
+              "idi": 2,
+              "ds": "Customers"
+            },
+            {
+              "idi": 3,
+              "ds": "Clientes"
+            }
+          ],
+          "id": "5"
         },
         {
-                "id": 6,
-                "color": 6,
-                "dataTrad": [
-                { "idi": 1, "ds": "Nuestra historia" },
-                { "idi": 2, "ds": "Our history" },
-                { "idi": 3, "ds": "Nossa história" }
-                ]
+          "id": "6",
+          "color": 6,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Nuestra historia"
+            },
+            {
+              "idi": 2,
+              "ds": "Our history"
+            },
+            {
+              "idi": 3,
+              "ds": "Nossa história"
+            }
+          ]
         },
         {
-                "id": 7,
-                "color": 7,
-                "dataTrad": [
-                { "idi": 1, "ds": "Cómo nos organizamos" },
-                { "idi": 2, "ds": "How do we organize?" },
-                { "idi": 3, "ds": "Como nos organizamos" }
-                ]
+          "color": 5,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Cómo nos organizamos"
+            },
+            {
+              "idi": 2,
+              "ds": "How do we organize?"
+            },
+            {
+              "idi": 3,
+              "ds": "Como nos organizamos"
+            }
+          ],
+          "id": "7"
         },
         {
-                "id": 8,
-                "color": 8,
-                "dataTrad": [
-                { "idi": 1, "ds": "Nuestra oferta de valor" },
-                { "idi": 2, "ds": "Our value proposition" },
-                { "idi": 3, "ds": "A nossa proposta de valor" }
-                ]
+          "id": "8",
+          "color": 8,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Nuestra oferta de valor"
+            },
+            {
+              "idi": 2,
+              "ds": "Our value proposition"
+            },
+            {
+              "idi": 3,
+              "ds": "A nossa proposta de valor"
+            }
+          ]
         },
         {
-                "id": 9,
-                "color": 9,
-                "dataTrad": [
-                { "idi": 1, "ds": "Procesos" },
-                { "idi": 2, "ds": "Processes" },
-                { "idi": 3, "ds": "Processos" }
-                ]
+          "id": "9",
+          "color": 9,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Procesos"
+            },
+            {
+              "idi": 2,
+              "ds": "Processes"
+            },
+            {
+              "idi": 3,
+              "ds": "Processos"
+            }
+          ]
         },
         {
-                "id": 10,
-                "color": 10,
-                "dataTrad": [
-                { "idi": 1, "ds": "Somos Softtek" },
-                { "idi": 2, "ds": "We are Softtek" },
-                { "idi": 3, "ds": "Nós somos a Softtek" }
-                ]
+          "color": 4,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Somos Softtek"
+            },
+            {
+              "idi": 2,
+              "ds": "We are Softtek"
+            },
+            {
+              "idi": 3,
+              "ds": "Nós somos a Softtek"
+            }
+          ],
+          "id": "10"
         },
         {
-                "id": 11,
-                "color": 1,
-                "dataTrad": [
-                { "idi": 1, "ds": "Herramientas y Procesos" },
-                { "idi": 2, "ds": "Tools and Processes" },
-                { "idi": 3, "ds": "Ferramentas e Processos" }
-                ]
+          "id": "11",
+          "color": 1,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Herramientas y Procesos"
+            },
+            {
+              "idi": 2,
+              "ds": "Tools and Processes"
+            },
+            {
+              "idi": 3,
+              "ds": "Ferramentas e Processos"
+            }
+          ]
         },
         {
-                "id": 12,
-                "color": 2,
-                "dataTrad": [
-                { "idi": 1, "ds": "Quienes somos en EMEA" },
-                { "idi": 2, "ds": "Who we are in EMEA" },
-                { "idi": 3, "ds": "Quem somos na EMEA" }
-                ]
+          "id": "12",
+          "color": 2,
+          "dataTrad": [
+            {
+              "idi": 1,
+              "ds": "Quienes somos en EMEA"
+            },
+            {
+              "idi": 2,
+              "ds": "Who we are in EMEA"
+            },
+            {
+              "idi": 3,
+              "ds": "Quem somos na EMEA"
+            }
+          ]
         }
-    ]
+      ]
