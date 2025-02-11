@@ -1,0 +1,27 @@
+[
+    { 
+        "id":1,  
+        "email": "merino@softtek.com",
+        "role":   {
+            "id": 1,
+            "name": "SUPER",
+            "functionalities": [
+                    { "id": 1, "name": "CREATE" },
+                    { "id": 2, "name": "UPDATE" },
+                    { "id": 3, "name": "DELETE" }
+            ]
+        } 
+    },      
+    { 
+        "id":2,
+        "email": "jlteva@softtek.com",
+        "role":  {
+            "id": 2,
+            "name": "MANAGER",
+            "functionalities": [
+                    { "id": 1, "name": "CREATE" },
+                    { "id": 2, "name": "UPDATE" }                                
+            ]
+        } 
+    }
+]

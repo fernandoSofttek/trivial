@@ -1,0 +1,26 @@
+
+/* Core */
+@import "core/variables";
+@import "core/mixins";  
+@import "core/fonts";
+
+
+/* Lib */
+@import "lib/reset";
+
+/* Modules */
+@import "modules/base";
+@import "modules/inputs";
+@import "modules/menubuttons";
+@import "modules/buttons";
+@import "modules/logo";
+@import "modules/navbar";
+@import "modules/tablas";
+@import "modules/alertas";
+@import "modules/auth";
+@import "modules/infoquestions";
+@import "modules/games";
+@import "modules/dashboard";
+
+
+/* Media */

@@ -1,0 +1,40 @@
+.logo-softtek-head {
+    display: block;
+    width: 20rem;  
+    margin: 2rem auto;
+    @media screen and (map-get($rd-types, md)){
+      margin: 1rem auto 2rem auto;
+    }
+    @media screen and (map-get($rd-types, lg)){
+      margin: 2rem auto 6rem auto;
+    }
+
+    .dashboard--admin &{
+      width:  12rem;
+      margin: 1rem auto;
+      position: absolute; 
+      right: -10px;
+      top: -10px;
+      opacity: .8;
+    
+      @media screen and (map-get($rd-types, md)){
+        margin: 1rem auto;
+      }
+      @media screen and (map-get($rd-types, lg)){
+        margin: 1rem auto;
+      }
+    }
+
+    &.logo-medium{
+      width: 30rem;  
+    }
+}
+.dashboard--admin .logo-softtek-head{
+  display: none;
+  @media screen and (map-get($rd-types, md)){
+    display: block;
+  }
+}
+
+  
+  

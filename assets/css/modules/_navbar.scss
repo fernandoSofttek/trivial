@@ -1,0 +1,212 @@
+
+app-navbar{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    position: fixed; 
+    top: 0; 
+    background-color: $blue;
+    text-align: center;
+    box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
+    z-index: 9999999;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    line-height: normal;
+    margin-bottom: auto;
+    padding: 2px 0; 
+    width: 100%;
+    background-color: $blue;
+    border-color: $blue;
+    margin:0;
+    min-height: 4.4rem;
+
+    @media screen and (map-get($rd-types, sm)){ 
+        min-height: 5.47rem;
+    }
+
+    @media screen and (map-get($rd-types, lg)){ 
+        max-width: 140rem;
+    }
+
+    &.login{
+        justify-content:space-between;
+        .navbar-logo{
+            position: relative; 
+            &--mobile{
+                top: 4px;
+            }               
+        }
+    }
+ 
+
+    .navbar-game-type {
+        font-family: "Monoton", sans-serif;
+        // font-family: 'Balmoral', sans-serif;   
+        font-weight: 400;
+        font-style: normal;
+        color: $white;
+        position: relative;
+        right: 0;
+        font-size: 4rem;
+        line-height: 4rem;
+        padding: 0;
+        margin: 0;
+        display: none;
+        @media screen and (map-get($rd-types, sm)){ 
+            display: block;
+        }  
+    }
+
+    .navbar-logo{
+        display:inline-block;
+        position: absolute;
+        left:16px;
+        display: none;
+        
+        &--mobile{
+            top: 14px;
+            display: block; 
+        }   
+ 
+        @media screen and (map-get($rd-types, sm)){ 
+            display: block;
+            &--mobile{
+              display: none!important;
+            } 
+          }
+    }
+    
+    .logo-softtek-nav{ 
+        width: 85px;
+        height: auto;
+        position: relative;
+        top: 1px;
+    } 
+        
+    .nabvar-user{
+            
+        position: relative;
+
+        a{color:$white;}
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color:$white;
+        gap: 0 20px ;
+        padding: 0 10px;
+
+        & p{
+            display: flex;
+            align-items: center;
+            gap: 0 5px;
+            margin: 0;    
+            font-size:2rem;
+            text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 
+               1px 1px 1px rgba(0, 0, 0, 0.6);
+        } 
+        ul{
+            padding: 0 1rem;
+            border-right: 1px solid $grey5;
+            border-left: 1px solid  $grey5;
+        }
+
+        .fa{
+            font-size:3.5rem;
+            text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.6);
+            opacity: .6;
+            text-shadow: none;
+            padding-right: .8rem;
+            position: absolute;
+            left:-3.5rem;
+            top:0.3rem;
+        }
+
+        .user-info{
+            display: block;
+        }
+
+        .user-idioma{
+            justify-content: space-between;
+            align-items: center;
+            gap:0 10px;
+            display: none;
+            a{
+                opacity:.6;
+                font-size:1.5rem;
+                &:hover{
+                    opacity:1;
+                }
+                &.active{
+                    pointer-events: none;
+                    opacity:1;
+                    font-size:1.9rem;
+                    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 
+                    1px 1px 1px rgba(0, 0, 0, 0.6);
+                }
+            }
+            &.noLogin{
+                display: flex;
+            }
+            @media screen and (map-get($rd-types, xs)){
+                display: flex;
+            }             
+
+        }
+
+        .user-out{
+            position: relative;
+            width: 40px; 
+            height: 40px;
+            opacity: 1;
+            cursor: pointer;
+            &::before{ 
+                content: '';
+                position: absolute;
+                left:0;
+                top: 2px;
+                width: 35px; 
+                height: 35px;
+                background: url(/assets/images/logout.png) no-repeat top left;
+                background-size: contain;
+                z-index: 1;           
+                @media screen and (map-get($rd-types, sm)){
+                    top: -1px;
+                    width: 40px; 
+                    height: 40px;
+                } 
+            }
+            &:hover{
+                opacity: .8;
+            }
+            & .fa:hover{
+                text-shadow: none;
+            }
+        }
+      
+    }    
+ 
+    .menu-idioma{ 
+        &-enlace{
+            & img{
+                width: 40px;
+                height: 30px;
+                opacity: .5;
+            }
+            &.active img{
+                width: 50px;
+                height: 40px;
+                opacity: 1;
+            }
+            &:hover img{
+                opacity: 1;
+            }
+        }
+    }
+
+}

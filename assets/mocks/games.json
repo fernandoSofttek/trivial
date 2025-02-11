@@ -1,0 +1,542 @@
+[
+    {
+        "id": 1,
+        "configuration": {
+          "id": 1,
+          "type": 1,
+          "desc": "Camp 1",
+          "categories": [
+            {
+              "id": 6,
+              "color": 6,
+              "dataTrad": [
+                { "idi": 1, "ds": "Nuestra historia" },
+                { "idi": 2, "ds": "Our history" },
+                { "idi": 3, "ds": "Nossa história" }
+              ]
+            },
+            {
+              "id": 10,
+              "color": 10,
+              "dataTrad": [
+                { "idi": 1, "ds": "Somos Softtek" },
+                { "idi": 2, "ds": "We are Softtek" },
+                { "idi": 3, "ds": "Nós somos a Softtek" }
+              ]
+            },
+            {
+              "id": 11,
+              "color": 1,
+              "dataTrad": [
+                { "idi": 1, "ds": "Herramientas y Procesos" },
+                { "idi": 2, "ds": "Tools and Processes" },
+                { "idi": 3, "ds": "Ferramentas e Processos" }
+              ]
+            }
+          ],
+          "timer": 10,
+          "questions": 10,
+          "activated": true,
+          "dateActivation": "",
+          "dateEndActivation": "",
+          "pulpos": {
+            "yes": true,
+            "amount": 4,
+            "every": 3
+          }
+        },
+        "questions": [
+          {
+            "id": 1,
+            "questionTrad": [
+              { "idi": 1, "ds": "es_¿En qué país se fundó Softtek?" },
+              { "idi": 2, "ds": "en_En qué país se fundó Softtek" },
+              { "idi": 3, "ds": "pt_En qué país se fundó Softtek" }
+            ],
+            "requestTrad": [
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_México" },
+                  { "idi": 2, "ds": "en_México" },
+                  { "idi": 3, "ds": "pt_México" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_EEUU" },
+                  { "idi": 2, "ds": "en_EEUU" },
+                  { "idi": 3, "ds": "pt_EEUU" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_España" },
+                  { "idi": 2, "ds": "en_España" },
+                  { "idi": 3, "ds": "pt_España" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "**" },
+                  { "idi": 2, "ds": "**" },
+                  { "idi": 3, "ds": "**" }
+                ]
+              }
+            ],
+            "cat": 6,
+            "geo": 1,
+            "tag": 1
+          },
+          {
+            "id": 2,
+            "questionTrad": [
+              { "idi": 1, "ds": "es_¿En que ciudad se fundó Softtek?" },
+              { "idi": 2, "ds": "en_En el año 1988, ¿cuántos Softtekians formaban parte de la compañía?" },
+              { "idi": 3, "ds": "pt_En el año 1988, ¿cuántos Softtekians formaban parte de la compañía?" }
+            ],
+            "requestTrad": [
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_Más de 100" },
+                  { "idi": 2, "ds": "en_Más de 100" },
+                  { "idi": 3, "ds": "pt_Más de 100" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_Más de 25" },
+                  { "idi": 2, "ds": "en_Más de 25" },
+                  { "idi": 3, "ds": "pt_Más de 25" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_Más de 200" },
+                  { "idi": 2, "ds": "en_Más de 200" },
+                  { "idi": 3, "ds": "pt_Más de 200" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_Esta es las descripcion larga de la respuesta" },
+                  { "idi": 2, "ds": "en_Esta es las descripcion larga de la respuesta" },
+                  { "idi": 3, "ds": "pt_Esta es las descripcion larga de la respuesta" }
+                ]
+              }
+            ],
+            "cat": 6,
+            "geo": 1,
+            "tag": 1
+          },
+          {
+            "id": 3,
+            "questionTrad": [
+              { "idi": 1, "ds": "es_En el año 1985, ¿cuántos socios se unieron a Softtek?" },
+              { "idi": 2, "ds": "en_Dentro de nuestra política medioambiental, ¿cuál de los siguientes no es uno de nuestros compromisos medioambientales?" },
+              { "idi": 3, "ds": "pt_Dentro de nuestra política medioambiental, ¿cuál de los siguientes no es uno de nuestros compromisos medioambientales?" }
+            ],
+            "requestTrad": [
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_Economía circular" },
+                  { "idi": 2, "ds": "en_Economía circular" },
+                  { "idi": 3, "ds": "pt_Economía circular" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_Reducir la huella de carbono" },
+                  { "idi": 2, "ds": "en_Reducir la huella de carbono" },
+                  { "idi": 3, "ds": "pt_Reducir la huella de carbono" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_Promover la eficiencia energética" },
+                  { "idi": 2, "ds": "en_Promover la eficiencia energética" },
+                  { "idi": 3, "ds": "pt_Promover la eficiencia energética" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_Esta es las descripcion larga de la respuesta" },
+                  { "idi": 2, "ds": "en_Esta es las descripcion larga de la respuesta" },
+                  { "idi": 3, "ds": "pt_Esta es las descripcion larga de la respuesta" }
+                ]
+              }
+            ],
+            "cat": 6,
+            "geo": 1,
+            "tag": 1
+          },
+          {
+            "id": 5,
+            "questionTrad": [
+              { "idi": 1, "ds": "es_En la linea del tiempo de Softtek, ¿cual es el acontecimiento más relevante del año 1985?" },
+              { "idi": 2, "ds": "en_En la linea del tiempo de Softtek, ¿cual es el acontecimiento más relevante del año 1985?" },
+              { "idi": 3, "ds": "pt_En la linea del tiempo de Softtek, ¿cual es el acontecimiento más relevante del año 1985?" }
+            ],
+            "requestTrad": [
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_Se unen 6 socios a la organización" },
+                  { "idi": 2, "ds": "en_Se unen 6 socios a la organización" },
+                  { "idi": 3, "ds": "pt_Se unen 6 socios a la organización" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_Se abre la primera oficina en Argentina" },
+                  { "idi": 2, "ds": "en_Se abre la primera oficina en Argentina" },
+                  { "idi": 3, "ds": "pt_Se abre la primera oficina en Argentina" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_Softtek inicia operaciones en EEUU" },
+                  { "idi": 2, "ds": "en_Softtek inicia operaciones en EEUU" },
+                  { "idi": 3, "ds": "pt_Softtek inicia operaciones en EEUU" }
+                ]
+              },
+              {
+                "answer": [
+                  { "idi": 1, "ds": "es_cc" },
+                  { "idi": 2, "ds": "en_cc" },
+                  { "idi": 3, "ds": "pt_cc" }
+                ]
+              }
+            ],
+            "cat": 6,
+            "geo": 1,
+            "tag": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "configuration": {
+          "id": 2,
+          "type": 1,
+          "desc": "Camp 2",
+          "categories": [
+            {
+              "id": 6,
+              "color": 6,
+              "dataTrad": [
+                {"idi": 1, "ds": "Nuestra historia"},
+                {"idi": 2, "ds": "Our history"},
+                {"idi": 3, "ds": "Nossa história"}
+              ]
+            },
+            {
+              "id": 7,
+              "color": 7,
+              "dataTrad": [
+                {"idi": 1, "ds": "Cómo nos organizamos"},
+                {"idi": 2, "ds": "How do we organize?"},
+                {"idi": 3, "ds": "Como nos organizamos"}
+              ]
+            }
+          ],
+          "timer": 20,
+          "questions": 10,
+          "activated": false,
+          "dateActivation": "2025-01-01T00:00:00+00:00",
+          "dateEndActivation": "2025-02-05T00:00:00+00:00",
+          "pulpos": {
+            "yes": false,
+            "amount": 0,
+            "every": 0
+          }
+        },
+        "questions": [
+          {
+            "id": 1,
+            "questionTrad": [
+              {"idi": 1, "ds": "¿En qué país se fundó Softtek?"},
+              {"idi": 2, "ds": "In which country was Softtek founded?"},
+              {"idi": 3, "ds": "Em que país a Softtek foi fundada?"}
+            ],
+            "requestTrad": [
+              {
+                "answer": [
+                  {"idi": 1, "ds": "México"},
+                  {"idi": 2, "ds": "Mexico"},
+                  {"idi": 3, "ds": "México"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "EEUU"},
+                  {"idi": 2, "ds": "USA"},
+                  {"idi": 3, "ds": "EUA"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "España"},
+                  {"idi": 2, "ds": "Spain"},
+                  {"idi": 3, "ds": "Espanha"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "**"},
+                  {"idi": 2, "ds": "**"},
+                  {"idi": 3, "ds": "**"}
+                ]
+              }
+            ],
+            "cat": 6,
+            "geo": 1,
+            "tag": 1
+          },
+          {
+            "id": 2,
+            "questionTrad": [
+              {"idi": 1, "ds": "¿En qué ciudad se fundó Softtek?"},
+              {"idi": 2, "ds": "In which city was Softtek founded?"},
+              {"idi": 3, "ds": "Em que cidade a Softtek foi fundada?"}
+            ],
+            "requestTrad": [
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Más de 100"},
+                  {"idi": 2, "ds": "More than 100"},
+                  {"idi": 3, "ds": "Mais de 100"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Más de 25"},
+                  {"idi": 2, "ds": "More than 25"},
+                  {"idi": 3, "ds": "Mais de 25"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Más de 200"},
+                  {"idi": 2, "ds": "More than 200"},
+                  {"idi": 3, "ds": "Mais de 200"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Esta es la descripción larga de la respuesta"},
+                  {"idi": 2, "ds": "This is the long description of the answer"},
+                  {"idi": 3, "ds": "Esta é a descrição longa da resposta"}
+                ]
+              }
+            ],
+            "cat": 6,
+            "geo": 1,
+            "tag": 1
+          },
+          {
+            "id": 3,
+            "questionTrad": [
+              {"idi": 1, "ds": "En el año 1985, ¿cuántos socios se unieron a Softtek?"},
+              {"idi": 2, "ds": "In 1985, how many partners joined Softtek?"},
+              {"idi": 3, "ds": "Em 1985, quantos sócios se juntaram à Softtek?"}
+            ],
+            "requestTrad": [
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Economía circular"},
+                  {"idi": 2, "ds": "Circular economy"},
+                  {"idi": 3, "ds": "Economia circular"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Reducir la huella de carbono"},
+                  {"idi": 2, "ds": "Reduce carbon footprint"},
+                  {"idi": 3, "ds": "Reduzir a pegada de carbono"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Promover la eficiencia energética"},
+                  {"idi": 2, "ds": "Promote energy efficiency"},
+                  {"idi": 3, "ds": "Promover a eficiência energética"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Esta es la descripción larga de la respuesta"},
+                  {"idi": 2, "ds": "This is the long description of the answer"},
+                  {"idi": 3, "ds": "Esta é a descrição longa da resposta"}
+                ]
+              }
+            ],
+            "cat": 6,
+            "geo": 1,
+            "tag": 1
+          },
+          {
+            "id": 5,
+            "questionTrad": [
+              {"idi": 1, "ds": "En la línea del tiempo de Softtek, ¿cuál es el acontecimiento más relevante del año 1985?"},
+              {"idi": 2, "ds": "In Softtek's timeline, what is the most relevant event of 1985?"},
+              {"idi": 3, "ds": "Na linha do tempo da Softtek, qual é o evento mais relevante de 1985?"}
+            ],
+            "requestTrad": [
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Se unen 6 socios a la organización"},
+                  {"idi": 2, "ds": "6 partners join the organization"},
+                  {"idi": 3, "ds": "6 sócios se juntam à organização"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Se abre la primera oficina en Argentina"},
+                  {"idi": 2, "ds": "The first office opens in Argentina"},
+                  {"idi": 3, "ds": "Primeiro escritório aberto na Argentina"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Softtek inicia operaciones en EEUU"},
+                  {"idi": 2, "ds": "Softtek begins operations in the USA"},
+                  {"idi": 3, "ds": "Softtek inicia operações nos EUA"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "cc"},
+                  {"idi": 2, "ds": "cc"},
+                  {"idi": 3, "ds": "cc"}
+                ]
+              }
+            ],
+            "cat": 6,
+            "geo": 1,
+            "tag": 1
+          },
+          {
+            "id": 9,
+            "questionTrad": [
+              {"idi": 1, "ds": "¿Qué rol ostenta Agustín de la Maza?"},
+              {"idi": 2, "ds": "What role does Agustín de la Maza hold?"},
+              {"idi": 3, "ds": "Qual papel Agustín de la Maza ocupa?"}
+            ],
+            "requestTrad": [
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Chief Solution Officer"},
+                  {"idi": 2, "ds": "Chief Solution Officer"},
+                  {"idi": 3, "ds": "Chief Solution Officer"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Chief People Officer"},
+                  {"idi": 2, "ds": "Chief People Officer"},
+                  {"idi": 3, "ds": "Chief People Officer"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Chief Operating Officer"},
+                  {"idi": 2, "ds": "Chief Operating Officer"},
+                  {"idi": 3, "ds": "Chief Operating Officer"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "cc"},
+                  {"idi": 2, "ds": "cc"},
+                  {"idi": 3, "ds": "cc"}
+                ]
+              }
+            ],
+            "cat": 7,
+            "geo": 1,
+            "tag": 1
+          },
+          {
+            "id": 10,
+            "questionTrad": [
+              {"idi": 1, "ds": "¿Qué rol ostenta Luis Revilla?"},
+              {"idi": 2, "ds": "What role does Luis Revilla hold?"},
+              {"idi": 3, "ds": "Qual papel Luis Revilla ocupa?"}
+            ],
+            "requestTrad": [
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Chief People Officer"},
+                  {"idi": 2, "ds": "Chief People Officer"},
+                  {"idi": 3, "ds": "Chief People Officer"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Chief Marketing Officer"},
+                  {"idi": 2, "ds": "Chief Marketing Officer"},
+                  {"idi": 3, "ds": "Chief Marketing Officer"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "Chief Operating Officer"},
+                  {"idi": 2, "ds": "Chief Operating Officer"},
+                  {"idi": 3, "ds": "Chief Operating Officer"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "cc"},
+                  {"idi": 2, "ds": "cc"},
+                  {"idi": 3, "ds": "cc"}
+                ]
+              }
+            ],
+            "cat": 7,
+            "geo": 1,
+            "tag": 1
+          },
+          {
+            "id": 11,
+            "questionTrad": [
+              {"idi": 1, "ds": "¿Qué rol ostenta David Jiménez?"},
+              {"idi": 2, "ds": "What role does David Jiménez hold?"},
+              {"idi": 3, "ds": "Qual papel David Jiménez ocupa?"}
+            ],
+            "requestTrad": [
+              {
+                "answer": [
+                  {"idi": 1, "ds": "MD CPG"},
+                  {"idi": 2, "ds": "MD CPG"},
+                  {"idi": 3, "ds": "MD CPG"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "MD High Tech, Telcom & Media"},
+                  {"idi": 2, "ds": "MD High Tech, Telcom & Media"},
+                  {"idi": 3, "ds": "MD High Tech, Telcom & Media"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "MD BFS & Mexico Market"},
+                  {"idi": 2, "ds": "MD BFS & Mexico Market"},
+                  {"idi": 3, "ds": "MD BFS & Mexico Market"}
+                ]
+              },
+              {
+                "answer": [
+                  {"idi": 1, "ds": "cc"},
+                  {"idi": 2, "ds": "cc"},
+                  {"idi": 3, "ds": "cc"}
+                ]
+              }
+            ],
+            "cat": 7,
+            "geo": 1,
+            "tag": 1
+          }
+        ]
+      }      
+]

@@ -1,0 +1,83 @@
+
+/* Colors */
+
+$red:	 #dc3545; 
+$red2:	 #e72727; 
+$red3:	 #ffc0c0; 
+$red4:	 #c82333; 
+$red5:	 #bd2130;
+$red6:   rgba(220, 53, 69, 0.5); 
+$red7:   #ec407a;
+$red8:   #a93226;
+$green:  lightgreen;
+$green2: #28a745;
+$green3: #157347;
+$green4: #146c43;
+$green5: #9DB2A7;
+$green6: #389638;
+$green7: rgba(40, 167, 69, 0.5);
+$green8: #b9d1c5;
+$grey:   #666;
+$grey2:  #ccc;
+$grey3:  #545454;
+$grey4:  #999;
+$grey5:  #ffffff4d;
+$grey6:  #63717f;
+$black:  #000;
+$black2: hsla(149, 12%, 66%, 0.122);
+$blue:   #56a5eb;
+$blue2:  #232B68;
+$blue3:  rgba(86, 185, 235, 0.5);
+$blue4:  #ecf5ff;
+$blue5:  #bbd8f2;
+$blue6:  #0b5ed7;
+$blue7:	 #0a58ca; 
+$blue8:	 #c1d5e6;  
+$blue9:	 #03a9f4;
+$yellow: #fdd835;
+$brown:  #795548;
+$white:  #fff;
+$orange: #ff9800;
+$purple: #5b388b;
+$purple1:#875497;
+
+
+
+$image-path: "../img/"; //?
+
+/* Relations Colors */ 
+$text-color: $grey; 
+$heading-bg:$white;
+$text-aviso-color: $red;
+$listado-color: $grey;
+$listado-border-bottom:	$text-color;
+
+
+//Responsive configuration
+	
+// $mobile: 320px; 		  // Phone portrait minimum
+// $mobile-landscape: 480px; // Phone landscape minimum
+// $tablet: 768px; 		  // Tablet portrait minimum
+// $desktop: 992px; 		  // Laptop+Desktop minimum
+// $large-desktop: 1200px;   // Large screen minimum
+$mobile:  420px; 		  // Phone portrait minimum  
+$tablet:  768px; 		  // Tablet portrait minimum
+$large-tablet: 992px; 		  // Laptop+Desktop minimum
+$desktop: 1100px; 		   
+$large-desktop: 1400px;   // Large screen minimum
+
+$rd-types:	(
+	// sm:'min-width: #{$mobile-landscape}',
+	// md:'min-width: #{$tablet}',
+	// lg:'min-width: #{$desktop}',
+	// xl:'min-width: #{$large-desktop}'
+	xs:'min-width: #{$mobile}',
+	sm:'min-width: #{$tablet}',
+	ms:'min-width: #{$large-tablet}',
+	md:'min-width: #{$desktop}',
+	lg:'min-width: #{$large-desktop}',
+)!default; // Responsive configuration
+
+
+$hundred:	100%;
+$section:	96rem;

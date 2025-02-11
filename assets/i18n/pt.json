@@ -1,0 +1,229 @@
+{
+    "COMMONS": {
+        "OK": "OK",
+        "YES": "Sim",
+        "NO": "Não",
+        "HOME" : "Início",
+        "DOWNLOAD": "Descarregar",
+        "EDIT": "Editar",
+        "SAVE": "Guardar", 
+        "DELETE": "Eliminar",
+        "UPDATE": "Atualizar",
+        "CONFIRM": "Confirmar",
+        "SIGN_UP": "Inscrever-se",
+        "CLOSE"  : "Fechar",
+        "CANCEL" : "Cancelar",
+        "CONTINUE":"Continuar",   
+        "NEXT":    "Seguindo",  
+        "SEARCH":  "Procurar", 
+        "FINISH":  "Terminar",
+        "LOGOUT"  :  "Sair",
+        "LOGOUT_MSG":     "Deseja sair da sessão?",
+        "LOGOUT_SUCCESS": "Sessão terminada com sucesso",
+        "CHANGES_SAVED":  "Alterações guardadas com sucesso",
+        "MSG_ERROR":      "Ocorreu um erro:",
+        "MSG_UPLOAD_SUCCESS": "O ficheiro foi carregado com sucesso",
+        "MSG_UPLOAD_NO_FILE": "Tem de selecionar um ficheiro para carregar",
+        "MSG_WRONG_FORMAT":   "Formato incorreto",
+        "DOWNLOAD_TEMPLATE":  "Descarregar completo",
+        "NO_MATCHING_ELEMENTS_FOUND": "Não foram encontrados resultados", 
+        "NOT_PAGEFOUND":  "Página não encontrada",
+        "NO_ACCESS":      "Não tem acesso a este local",
+        "NO_PERMISSIONS": "Não tem permissão para realizar esta ação",        
+        "GENERIC_ERROR_TITLE":  "Ocorreu um erro ao realizar a operação",
+        "USER_NOT_IN_DATABASE": "Utilizador não registado na aplicação",
+        "MSG_ERROR_BD": "Erro de conexão com a base de dados, por favor contacte um administrador",
+        "MSG_ERROR_DATA": "Não foi possível recuperar informações relevantes para trabalhar normalmente durante esta manutenção."
+    },
+    "ACCESS": {
+        "LOGIN":            "A sua conta", 
+        "SUBLOGIN": {
+            "SUBA": "Aceda ou",        
+            "SUBB": "crie uma conta"        
+        },
+        "MSG_LOGIN"   : {
+            "MSG_YA" : "Já tem uma conta?" ,
+            "MSG_INIT"   : "Iniciar sessão"            
+        },
+        "REGISTER":         "Crie a sua conta",      
+        "REGISTERBT":       "Criar conta",      
+        "EMAIL"  :          "Email Softtek",
+        "PASSWORD":         "Palavra-passe",
+        "CONFIRM_PASSWORD": "Confirmar palavra-passe",
+        "NAME":             "Nome",
+        "MSG_ERROR"   : {
+            "MSG_CREDENTIALS" : "Utilizador ou palavra-passe incorretos" ,
+            "MSG_NAMEEXITS"   : "Esse nome de utilizador já existe." ,            
+            "MSG_MINUSCULE"   : "Deve conter pelo menos uma letra minúscula.",        
+            "MSG_CAPITAL"     : "Deve conter pelo menos uma letra maiúscula.",         
+            "MSG_NUMBER"      : "Deve conter pelo menos um número.",        
+            "MSG_LONG"        : "Deve conter pelo menos 8 caracteres."
+        }
+    },
+    "HOME": {
+        "PLAY":    "Jogar",        
+        "PROFILE": "Perfil",        
+        "ADMIN":   "Admin"
+    },
+    "ADMIN": {
+        "MENU": {
+            "QUESTIONS":   "Perguntas",
+            "CONFIGAME":   "Configurações",
+            "EXCEL":       "Excel",
+            "LOADFULL":    "Carregamento em massa",          
+            "GAME":        "Jogo",
+            "CATEGORY"   : "Categoria",
+            "TAG"       :  "Etiqueta",
+            "GEOGRAPHY" :  "Geografia",
+            "MAINTENANCE": "Manutenção",
+            "ERRORQUESTIONS":"Erros nas perguntas",
+            "USERS":         "Administradores"
+        },
+        "BUTTONS":{
+            "NEWQUESTION" :"Nova Pergunta",
+            "NEWTAG"      :"Nova Etiqueta",
+            "NEWCATEGORY" :"Nova Categoria",
+            "NEWGEO"      :"Nova Geografia",
+            "NEWCAMPAIGN" :"Nova Campanha",  
+            "NEWADMIN"    :"Novo Gestor",            
+            "DOWNLOADXLS" :"Descarregar CSV",            
+            "NEWUSER"     :"Novo utilizador",
+            "SELECTCSV"   :"Selecione um ficheiro .csv",
+            "UPCSV"       :"Carregar ficheiro"
+        },
+        "PAGINATION" :{
+            "TOTAL" :"Total",
+            "OF" :"de"
+        },
+        "POPUP" : {
+            "TITLEDELETE"    : "Tem a certeza?",
+            "TITLEDELETE2"   : "Eliminado!",
+            "TITLEDELETE3"   : "Ocorreu um erro",
+            "SUBTITLEDELETE" : "Não poderá reverter isto!",
+            "SUBTITLEDELETE2": "Total de registos a eliminar:",
+            "REGISTER"       : "Registo", 
+            "MSG_SAVEOK"     : "O registo foi guardado.",
+            "MSG_UPDATEOK"   : "O registo foi atualizado com sucesso",
+            "MSG_DELETEOK"   : "O registo foi eliminado.",
+            "MSG_ALLFIELDS"  : "* Todos os campos SÃO obrigatórios, não os deixe em branco.", 
+            "MSG_ERRORFIELD" : "* Deve preencher TODOS os campos.", 
+            "MSG_PLACEHOLDER": "preencha...",
+            "MSG_SELECT" :     "Selecione uma opção...",
+            "BTCANCEL"   :     "Não, Cancelar!", 
+            "BTOKDELETE" :     "Sim, Elimine!"
+        },
+        "TABLE":{
+            "CATEGORY":    "Categoria",
+            "GEOGRAPHY":    "Geografia",
+            "TAGS":        "Etiqueta",
+            "ACTIONS":     "Ações"
+        },
+        "QUESTIONS":{
+            "TITLE" : "Lista de Perguntas",
+            "FIELDS" : {
+                    "QUESTION":    "Pergunta", 
+                    "ANSWER":      "Resposta",
+                    "ANSWERALL":   "Resposta completa",
+                    "ANSWEROK":    "Resposta correta",
+                    "ANSWERKO":    "Resposta incorreta",
+                    "EXPLICATION": "Explicação",
+                    "DIFFICULTY":  "Dificuldade",
+                    "ACTIONS":     "Ações",
+                    "LANGUAGE":    "Idioma"                    
+            },
+            "POPUP" : {
+                "TITLENEW" : "Nova pergunta",
+                "TITLEDIT" : "Editar pergunta",  
+                "TITLESHOW" : "Dados da pergunta",  
+                "MSG_NOTEXPLICATION" : "* Se não tiver explicação, preencha com **, asteriscos."
+            }
+        },
+        "SETTINGS":{
+            "TITLE" : "Configurações da Campanha",
+            "FIELDS" : {
+                    "CAMPAIGN":    "Campanha", 
+                    "TYPE":        "Tipo",                     
+                    "ACTIONS":     "Ações",
+                    "DATEINIT" : "Data Início",
+                    "DATEEND"  : "Data Fim"            
+            },
+            "POPUP" : {
+                "TITLENEW" : "Nova Campanha",
+                "TITLEDIT" : "Editar Campanha",
+                "TYPE"     : "Tipo de Campanha", 
+                "ACTIVATED": "Ativar Campanha?",
+                "NAME"     : "Nome da Campanha", 
+                "YOKER"     : "Polvos Coringas",
+                "RENOYOKER": "Renovação Polvo",
+                "TIMERSEG"     : "Tempo em segundos",
+                "TOTALQUESTION": "Nº de Perguntas",
+                "MSG_INFODATE"   : "* Restringir a datas específicas, pode deixá-las em branco"                
+            }
+        },
+        "BULKLOAD":{
+            "TITLE" : "Carregamento em Massa",
+            "SUBTITLE" : "Preencha inicialmente as caixas de seleção para poder carregar as perguntas associadas a essas opções. Deverá carregar tantos ficheiros quantas as combinações tiver.",
+            "NODATA"   : "Não foram recuperados dados para Categorias ou Geografias ou Etiquetas, insira pelo menos um registo para cada um deles para poder carregar um ficheiro Csv."
+        },
+        "MAINTENANCE":{
+            "TITLEC" : "Lista de Categorias",
+            "TITLEG" : "Lista de Geografias",
+            "TITLET" : "Lista de Etiquetas",
+            "TITLEA":  "Lista de Administradores",
+            "FIELDS" : {
+                "DESCRIPCTION":    "Descrição",
+                "TOCAMPAGNE"  :    "Com Campanhas",
+                "TOQUESTIONS"  :   "Com Perguntas",
+                "SUPERADMIN"  :    "Super Administrador"
+            },
+            "POPUP" : {
+                "TITLENEWC" : "Nova Categoria",
+                "TITLEDITC" : "Editar Categoria",
+                "TITLENEWG" : "Nova Geografia",
+                "TITLEDITG" : "Editar Geografia",    
+                "TITLENEWT" : "Nova Etiqueta",
+                "TITLEDITT" : "Editar Etiqueta",    
+                "TITLENEWA" : "Novo Gestor",
+                "TITLEDITA" : "Editar Gestor",    
+                "SUBTITLEC" : "A categoria e as suas perguntas associadas serão eliminadas.",                              
+                "SUBTITLEG" : "A geografia e as suas perguntas associadas serão eliminadas.",  
+                "SUBTITLET" : "A etiqueta e as suas perguntas associadas serão eliminadas.",                              
+                "COLOR" : "Cor",
+                "ES" : "Espanhol",  
+                "EN" : "Inglês",  
+                "PT" : "Português",
+                "MSG_CAUTION":"Categoria associada a uma CAMPANHA, desmarque a categoria da campanha primeiro"
+            }                 
+        },
+        "ROLES":{
+            "FIELDS" : {
+                "ROLE": "Função" 
+            },
+            "POPUP" : {
+                "ROLE": "Função"    
+            }
+        }
+    },
+    "GAMES": {
+        "TITLE":    "Selecione o modo de Jogo",  
+        "MSG_ERR" : "Não há perguntas suficientes para jogar este jogo. Contacte o administrador.",
+        "TYPE":  {
+            "ARCADE" :"Arcade",        
+            "VERSUS" :"Versus",        
+            "CARRERA" :"Corrida",        
+            "PURSUIT" :"Perseguição"        
+        },
+        "PULPO":{
+            "TITLE":"Polvo Coringa",
+            "DESC_A":"Você pode obtê-lo novamente se responder a <strong>XX</strong> perguntas seguidas.",
+            "DESC_B":"Pode obtê-lo novamente se acertar em <strong>eliminar una respuesta incorrecta</strong>" 
+        },        
+        "ARCADE":{
+            "QUESTION":"Pergunta",
+            "OF":"de"
+        },
+        "ENDTIME": "O <strong>tempo</strong> acabou.<br>Vamos para a próxima pergunta.",
+        "ENDGAME": "Prima Concluir para finalizar o processo, apenas a primeira pontuação que fizer será registada, embora recomendemos que jogue novamente para continuar a fortalecer o seu conhecimento sobre a Softtek."
+
+    }
+}

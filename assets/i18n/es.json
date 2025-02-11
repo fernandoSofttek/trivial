@@ -1,0 +1,232 @@
+{
+    "COMMONS": {
+        "OK":  "OK",
+        "YES": "Si",
+        "NO":  "No",
+        "HOME" :  "Home",
+        "DOWNLOAD": "Descargar",
+        "EDIT":    "Editar",
+        "SAVE":    "Guardar", 
+        "DELETE":  "Eliminar",
+        "UPDATE":  "Actualizar",
+        "CONFIRM": "Confirmar",
+        "SIGN_UP": "Inscribirse",
+        "CLOSE"  : "Cerrar",
+        "CANCEL" : "Cancelar",
+        "CONTINUE":"Continuar",   
+        "NEXT":    "Siguiente",  
+        "SEARCH":  "buscar",                
+        "FINISH":  "Finalizar",                
+        "LOGOUT"  :  "Salir",
+        "LOGOUT_MSG":     "¿Desea cerrar sesión?",
+        "LOGOUT_SUCCESS": "Sesión cerrada correctamente",
+        "CHANGES_SAVED":  "Los cambios se han guardado correctamente",
+        "MSG_ERROR":      "Ha ocurrido un error:",
+        "MSG_UPLOAD_SUCCESS": "El fichero se ha subido correctamente",
+        "MSG_UPLOAD_NO_FILE": "Tiene que seleccionar un archivo para subir",
+        "MSG_WRONG_FORMAT":   "Formato no correcto",
+        "DOWNLOAD_TEMPLATE":  "Descarga completa",
+        "NO_MATCHING_ELEMENTS_FOUND": "No se han encontrado resultados", 
+        "NOT_PAGEFOUND":        "Página no encontrada",
+        "NO_ACCESS":            "No tiene acceso a este lugar",
+        "NO_PERMISSIONS":       "No tiene permiso para realizar esta acción",        
+        "GENERIC_ERROR_TITLE":  "Se ha producido un error al realizar la operación",
+        "USER_NOT_IN_DATABASE": "Usuario no dado de alta en aplicación",
+        "MSG_ERROR_BD":   "Error conexión con la bd, pongase en contacto con un administrador",
+        "MSG_ERROR_DATA": "No se ha podido recuperar información relevante para poder trabajar con normalidad en este mantenimiento."        
+
+    },
+    "ACCESS": {
+        "LOGIN":    "Tu cuenta", 
+        "SUBLOGIN": {
+            "SUBA": "Accede o",        
+            "SUBB": "crea una cuenta"        
+        },
+        "MSG_LOGIN"   : {
+            "MSG_YA" :  "¿Ya tienes una cuenta?" ,
+            "MSG_INIT": "Iniciar sesión"            
+        },
+        "REGISTER":         "Crea tu cuenta",      
+        "REGISTERBT":       "Crear cuenta",      
+        "EMAIL"  :          "Email Softtek",
+        "PASSWORD":         "Contraseña",
+        "CONFIRM_PASSWORD": "Confirmar Contraseña",
+        "NAME":             "Nombre",
+        "MSG_ERROR"   : {
+            "MSG_CREDENTIALS" : "El usuario o contraseña son incorrectos" ,
+            "MSG_NAMEEXITS"   : "Ese nombre de usuario ya existe." ,            
+            "MSG_MINUSCULE"   : "Debe contener al menos una minúscula.",        
+            "MSG_CAPITAL"     : "Debe contener al menos una mayúscula.",         
+            "MSG_NUMBER"      : "Debe contener al menos un número.",        
+            "MSG_LONG"        : "Debe contener al menos 8 carácteres."
+        }
+    },
+    "HOME": {
+        "PLAY":    "Jugar",        
+        "PROFILE": "Perfil",        
+        "ADMIN":   "Admin"
+    },
+    "ADMIN": {
+        "MENU": {
+            "QUESTIONS":     "Preguntas",
+            "CONFIGAME":     "Configuración",
+            "EXCEL":         "Excel",
+            "LOADFULL":      "Carga masiva",          
+            "GAME":          "Partida",
+            "CATEGORY":      "Categoría",
+            "TAG":           "Etiqueta",
+            "GEOGRAPHY":     "Geografía",
+            "MAINTENANCE":   "Mantemientos",
+            "ERRORQUESTIONS":"Errores preguntas",
+            "USERS":         "Administradores"
+        },
+        "BUTTONS":{
+            "NEWQUESTION" :"Nueva Pregunta",
+            "NEWTAG"      :"Nueva Etiqueta",
+            "NEWCATEGORY" :"Nueva Categoría",
+            "NEWGEO"      :"Nueva Geografía",
+            "NEWCAMPAIGN" :"Nueva Campaña",  
+            "NEWADMIN"    :"Nuevo Manager",            
+            "DOWNLOADXLS" :"Descargar CSV",            
+            "NEWUSER"     :"Nuevo usuario",
+            "SELECTCSV"   :"Seleccione un fichero .csv",
+            "UPCSV"       :"Subir archivo"
+        },
+        "PAGINATION" :{
+            "TOTAL" :"Total",
+            "OF" :"de"
+        },
+        "POPUP" : {
+            "TITLEDELETE"    : "¿ Estas seguro ?",
+            "TITLEDELETE2"   : "Borrado!",
+            "TITLEDELETE3"   : "Se ha producido un error",
+            "SUBTITLEDELETE" : "¡ No podrás revertir esto !",
+            "SUBTITLEDELETE2": "Total registros a borrar:",
+            "REGISTER"       : "Registro", 
+            "MSG_SAVEOK"     : "El registro ha sido grabado.",
+            "MSG_UPDATEOK"   : "El registro ha sido modificado correctamente",
+            "MSG_DELETEOK"   : "El registro ha sido eliminado.",
+            "MSG_ALLFIELDS"  : "* Todos los campos SON obligatorios, no los deje vacios.", 
+            "MSG_ERRORFIELD" : "* Debe de rellenar TODOS los campos.", 
+            "MSG_ERROREMAIL" : "* El campo Email debe ser corportativo, @Softtek.com", 
+            "MSG_PLACEHOLDER": "rellene...",
+            "MSG_SELECT" :     "Seleccione una opcion...",
+            "BTCANCEL"   :     "No, Cancel!", 
+            "BTOKDELETE" :     "Si, Bórralo!" 
+        },
+        "TABLE":{
+            "CATEGORY":    "Categoría",
+            "GEOGRAPHY":   "Geografía",
+            "TAGS":        "Etiqueta",
+            "ACTIONS":     "Acciones"
+        },
+        "QUESTIONS":{
+            "TITLE" : "Listado Preguntas",
+            "FIELDS" : {
+                "QUESTION":    "Pregunta", 
+                "ANSWER":      "Respuesta",
+                    "ANSWERALL":   "Respuesta completa",
+                    "ANSWEROK":    "Respuesta correcta",
+                    "ANSWERKO":    "Respuesta incorrecta",
+                    "EXPLICATION": "Explicación",
+                    "DIFFICULTY":  "Dificultad",
+                    "ACTIONS":     "Acciones",
+                    "LANGUAGE":    "Idioma"                    
+            },
+            "POPUP" : {
+                "TITLENEW" : "Nueva pregunta",
+                "TITLEDIT" : "Editar pregunta",  
+                "TITLESHOW" : "Datos pregunta",  
+                "MSG_NOTEXPLICATION" : "* Si no tiene explicación, rellene con **, asteriscos."
+            }
+        },
+        "SETTINGS":{
+            "TITLE" : "Configuración Campañas",
+            "FIELDS" : {
+                "CAMPAIGN":    "Campaña", 
+                "TYPE":        "Tipo",                     
+                "ACTIONS":     "Acciones",
+                "DATEINIT" : "Fecha Inicio",
+                "DATEEND"  : "Fecha Fin"                
+            },
+            "POPUP" : {
+                "TITLENEW" : "Nueva Campaña",
+                "TITLEDIT" : "Editar Campaña",
+                "TYPE"     : "Tipo Campaña", 
+                "ACTIVATED": "¿ Activar Campaña ?",                  
+                "NAME"     : "Nombre Campaña", 
+                "YOKER"    : "Pulpos Comodín",
+                "RENOYOKER": "Renovación Pulpo",
+                "TIMERSEG" : "Tiempo en segundos",
+                "TOTALQUESTION": "Nº de Preguntas",
+                "MSG_INFODATE"   : "* Acotar a unas fechas concretas, puede dejarlos vacios"
+            }
+        },
+        "BULKLOAD":{
+            "TITLE" : "Carga Masiva",
+            "SUBTITLE" : "Rellene inicialmente los combos para poder subir las preguntas asociadas a esas opciones. Debera subir tantos ficheros como combinaciones tenga.",
+            "NODATA"   : "No se han recuperado datos para Categorías o Geografías o Etiquetas, inserte al menos un registro por cada uno de ellos para poder subir un fichero Csv."
+        },
+        "MAINTENANCE":{
+            "TITLEC" : "Listado Categorías",
+            "TITLEG" : "Listado Geografías",
+            "TITLET" : "Listado Etiquetas",
+            "TITLEA":  "Listado Administradores",
+            "FIELDS" : {
+                "DESCRIPCTION":    "Descripción",
+                "TOCAMPAGNE"  :    "Con Campañas",
+                "TOQUESTIONS"  :   "Con Preguntas",
+                "SUPERADMIN"  :    "Super Administrador"
+            },
+            "POPUP" : {
+                "TITLENEWC" : "Nueva Categoría",
+                "TITLEDITC" : "Editar Categoria",
+                "TITLENEWG" : "Nueva Geografía",
+                "TITLEDITG" : "Editar Geografía",    
+                "TITLENEWT" : "Nueva Etiqueta",
+                "TITLEDITT" : "Editar Etiqueta",    
+                "TITLENEWA" : "Nuevo Manager",
+                "TITLEDITA" : "Editar Manager",    
+                "SUBTITLEC" : "Se borrará la categoría con sus preguntas asociadas.",                              
+                "SUBTITLEG" : "Se borrará la geografía con sus preguntas asociadas.",  
+                "SUBTITLET" : "Se borrará la etiqueta con sus preguntas asociadas.",                              
+                "COLOR" : "Color",
+                "ES" : "Español",  
+                "EN" : "Ingles",  
+                "PT" : "Portugues",
+                "MSG_CAUTION":"Categoría asociada a una CAMPAÑA, desmarque de la campaña la categoría primero"
+            }                 
+        },
+        "ROLES":{
+            "FIELDS" : {
+                "ROLE": "Role" 
+            },
+            "POPUP" : {
+                "ROLE": "Rol"    
+            }
+        }
+    },
+    "GAMES": {
+        "TITLE":    "Seleccione el modo de Juego",  
+        "MSG_ERR" : "No hay suficientes preguntas para jugar este juego. Póngase en contacto con el administrador.",
+        "TYPE":  {
+            "ARCADE"  :"Arcade",        
+            "VERSUS"  :"Versus",        
+            "CARRERA" :"Carrera",        
+            "PURSUIT" :"Pursuit"        
+        },
+        "PULPO":{
+            "TITLE":"Comodín Pulpo",
+            "DESC_A":"Puedes volverlo a conseguir si aciertas <strong>XX</strong> preguntas seguidas.",
+            "DESC_B":"Usa el comodín del pulpo para <strong>eliminar una respuesta incorrecta</strong>" 
+        },
+        "ARCADE":{
+            "QUESTION":"Pregunta",
+            "OF":"de"
+        },
+        "ENDTIME": "Se termino el <strong>tiempo</strong>. <br>Pasemos a la siguiente pregunta.",
+        "ENDGAME": "Pulsa Finalizar para acabar el proceso, se registrará sólo la primera puntuación que hagas, aunque te animamos a volver a jugar para seguir afianzando tus conocimientos sobre Softtek."
+
+    }
+
+}

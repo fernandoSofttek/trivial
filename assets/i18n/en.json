@@ -1,0 +1,229 @@
+{
+    "COMMONS": {
+        "OK": "OK",
+        "YES": "Yes",
+        "NO": "No",
+        "HOME" : "Home",
+        "DOWNLOAD": "Download",
+        "EDIT": "Edit",
+        "SAVE": "Save", 
+        "DELETE": "Delete",
+        "UPDATE": "Update",
+        "CONFIRM": "Confirm",
+        "SIGN_UP": "Sign Up",
+        "CLOSE"  : "Close",
+        "CANCEL" : "Cancel",
+        "CONTINUE":"Continue", 
+        "NEXT":    "Next",    
+        "SEARCH":  "Search",               
+        "FINISH":  "FINISH",                      
+        "LOGOUT"  :  "Logout",
+        "LOGOUT_MSG":     "Do you want to log out?",
+        "LOGOUT_SUCCESS": "Logged out successfully",
+        "CHANGES_SAVED":  "Changes saved successfully",
+        "MSG_ERROR":      "An error occurred:",
+        "MSG_UPLOAD_SUCCESS": "The file was uploaded successfully",
+        "MSG_UPLOAD_NO_FILE": "You need to select a file to upload",
+        "MSG_WRONG_FORMAT":   "Incorrect format",
+        "DOWNLOAD_TEMPLATE":  "Download complete",
+        "NO_MATCHING_ELEMENTS_FOUND": "No results found", 
+        "NOT_PAGEFOUND":  "Page not found",
+        "NO_ACCESS":      "You do not have access to this location",
+        "NO_PERMISSIONS": "You do not have permission to perform this action",        
+        "GENERIC_ERROR_TITLE":  "An error occurred while performing the operation",
+        "USER_NOT_IN_DATABASE": "User not registered in the application",
+        "MSG_ERROR_BD": "Database connection error, please contact an app administrator.",
+        "MSG_ERROR_DATA": "Unable to retrieve relevant information to work normally during this maintenance."        
+    },
+    "ACCESS": {
+        "LOGIN":            "Your account", 
+        "SUBLOGIN": {
+            "SUBA": "Log in or",        
+            "SUBB": "create an account"        
+        },
+        "MSG_LOGIN"   : {
+            "MSG_YA" : "Already have an account?" ,
+            "MSG_INIT"   : "Log in"            
+        },
+        "REGISTER":         "Create your account",      
+        "REGISTERBT":       "Create account",      
+        "EMAIL"  :          "Softtek Email",
+        "PASSWORD":         "Password",
+        "CONFIRM_PASSWORD": "Confirm Password",
+        "NAME":             "Name",
+        "MSG_ERROR"   : {
+            "MSG_CREDENTIALS" : "Incorrect username or password" ,
+            "MSG_NAMEEXITS"   : "This username already exists." ,            
+            "MSG_MINUSCULE"   : "It must contain at least one lowercase letter.",        
+            "MSG_CAPITAL"     : "It must contain at least one uppercase letter.",         
+            "MSG_NUMBER"      : "It must contain at least one number.",        
+            "MSG_LONG"        : "It must contain at least 8 characters."
+        }
+    },
+    "HOME": {
+        "PLAY":    "Play",        
+        "PROFILE": "Profile",        
+        "ADMIN":   "Admin"
+    },
+    "ADMIN": {
+        "MENU": {
+            "QUESTIONS":   "Questions",
+            "CONFIGAME":   "Settings",
+            "EXCEL":       "Excel",
+            "LOADFULL":    "Bulk load",          
+            "GAME":        "Game",
+            "CATEGORY"   : "Category",
+            "TAG"       :  "Tag",
+            "GEOGRAPHY" :  "Geography",
+            "MAINTENANCE": "Maintenance",
+            "ERRORQUESTIONS":"Error questions",
+            "USERS":         "Administrators"
+        },
+        "BUTTONS":{
+            "NEWQUESTION" :"New Question",
+            "NEWTAG"      :"New Tag",
+            "NEWCATEGORY" :"New Category",
+            "NEWGEO"      :"New Geography",
+            "NEWCAMPAIGN" :"New Campaign",  
+            "NEWADMIN"    :"New Manager",            
+            "DOWNLOADXLS" :"Download CSV",            
+            "NEWUSER"     :"New User",
+            "SELECTCSV"   :"Select a .csv file",
+            "UPCSV"       :"Upload file"
+        },
+        "PAGINATION" :{
+            "TOTAL" :"Total",
+            "OF" :"of"
+        },
+        "POPUP" : {
+            "TITLEDELETE"    : "Are you sure?",
+            "TITLEDELETE2"   : "Deleted!",
+            "TITLEDELETE3"   : "An error occurred",
+            "SUBTITLEDELETE" : "You won't be able to revert this!",
+            "SUBTITLEDELETE2": "Total records to delete:",
+            "REGISTER"       : "Record", 
+            "MSG_SAVEOK"     : "The record has been saved.",
+            "MSG_UPDATEOK"   : "The record has been updated successfully",
+            "MSG_DELETEOK"   : "The record has been deleted.",
+            "MSG_ALLFIELDS"  : "* All fields are required, do not leave them empty.", 
+            "MSG_ERRORFIELD" : "* You must fill in ALL the fields.", 
+            "MSG_PLACEHOLDER": "fill in...",
+            "MSG_SELECT" :     "Select an option...",
+            "BTCANCEL"   :     "No, Cancel!", 
+            "BTOKDELETE" :     "Yes, Delete it!" 
+        },
+        "TABLE":{
+            "CATEGORY":    "Category",
+            "GEOGRAPHY":    "Geography",
+            "TAGS":        "Tag",
+            "ACTIONS":     "Actions"
+        },
+        "QUESTIONS":{
+            "TITLE" : "Question List",
+            "FIELDS" : {
+                    "QUESTION":    "Question", 
+                    "ANSWER":      "Answer",
+                    "ANSWERALL":   "Full answer",
+                    "ANSWEROK":    "Correct answer",
+                    "ANSWERKO":    "Incorrect answer",
+                    "EXPLICATION": "Explanation",
+                    "DIFFICULTY":  "Difficulty",
+                    "ACTIONS":     "Actions",
+                    "LANGUAGE":    "Language"                    
+            },
+            "POPUP" : {
+                "TITLENEW" : "New question",
+                "TITLEDIT" : "Edit question",  
+                "TITLESHOW" : "Question details",  
+                "MSG_NOTEXPLICATION" : "* If there is no explanation, fill in with **, asterisks."
+            }
+        },
+        "SETTINGS":{
+            "TITLE" : "Campaign Settings",
+            "FIELDS" : {
+                    "CAMPAIGN":    "Campaign", 
+                    "TYPE":        "Type",                     
+                    "ACTIONS":     "Actions",
+                    "DATEINIT" : "Start Date",
+                    "DATEEND"  : "End Date"           
+            },
+            "POPUP" : {
+                "TITLENEW" : "New Campaign",
+                "TITLEDIT" : "Edit Campaign",
+                "TYPE"     : "Campaign Type", 
+                "ACTIVATED": "Activate Campaign?",
+                "NAME"     : "Campaign Name", 
+                "YOKER"     : "Wild Octopuses",
+                "RENOYOKER": "Octopus Renewal",
+                "TIMERSEG"     : "Time in seconds",
+                "TOTALQUESTION": "No. of Questions",
+                "MSG_INFODATE": "* Narrow to specific dates, you can leave them empty"                
+            }
+        },
+        "BULKLOAD":{
+            "TITLE" : "Bulk Load",
+            "SUBTITLE" : "Initially fill in the combo boxes to upload the questions associated with those options. You will need to upload as many files as combinations you have.",
+            "NODATA"   : "No data retrieved for Categories or Geographies or Tags, please insert at least one record for each to upload a Csv file."
+        },
+        "MAINTENANCE":{
+            "TITLEC" : "Category List",
+            "TITLEG" : "Geography List",
+            "TITLET" : "Tag List",
+            "TITLEA":  "Admin List",
+            "FIELDS" : {
+                "DESCRIPCTION":    "Description",
+                "TOCAMPAGNE"  :    "With Campaigns",
+                "TOQUESTIONS"  :   "With Questions",
+                "SUPERADMIN"  :    "Super Administrator"
+            },
+            "POPUP" : {
+                "TITLENEWC" : "New Category",
+                "TITLEDITC" : "Edit Category",
+                "TITLENEWG" : "New Geography",
+                "TITLEDITG" : "Edit Geography",    
+                "TITLENEWT" : "New Tag",
+                "TITLEDITT" : "Edit Tag",    
+                "TITLENEWA" : "New Manager",
+                "TITLEDITA" : "Edit Manager",    
+                "SUBTITLEC" : "The category and its associated questions will be deleted.",                              
+                "SUBTITLEG" : "The geography and its associated questions will be deleted.",  
+                "SUBTITLET" : "The tag and its associated questions will be deleted.",                              
+                "COLOR" : "Color",
+                "ES" : "Spanish",  
+                "EN" : "English",  
+                "PT" : "Portuguese",
+                "MSG_CAUTION":"Category associated with a CAMPAIGN, uncheck the category from the campaign first"
+            }                 
+        },
+        "ROLES":{
+            "FIELDS" : {
+                "ROLE": "Role" 
+            },
+            "POPUP" : {
+                "ROLE": "Role"    
+            }
+        }
+    },
+    "GAMES": {
+        "TITLE":    "Select the Game Mode",  
+        "MSG_ERR" : "There are not enough questions to play this game. Please contact the administrator.",
+        "TYPE":  {
+            "ARCADE" :"Arcade",        
+            "VERSUS" :"Versus",        
+            "CARRERA" :"Race",        
+            "PURSUIT" :"Pursuit"        
+        },
+        "PULPO":{
+            "TITLE":"Octopus Wildcard",
+            "DESC_A":"You can get it again if you get <strong>XX</strong> questions right in a row.",
+            "DESC_B":"Use the octopus wildcard to <strong>eliminate an incorrect answer</strong>" 
+        },        
+        "ARCADE":{
+            "QUESTION":"Question",
+            "OF":"of"
+        },
+        "ENDTIME": "<strong>Time</strong> is up. <br>Let's move on to the next question..",
+        "ENDGAME": "Press Finish to finish the process, only the first score you make will be recorded, although we encourage you to play again to continue strengthening your knowledge about Softtek."
+
+    }
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "id":1, 
+        "dataTrad":[
+                {"idi":1,"ds":"es_tag1"},
+                {"idi":2,"ds":"en_tag1"},
+                {"idi":3,"ds":"pt_tag1"}
+        ] 
+    },
+    {
+        "id":2, 
+        "dataTrad":[
+                {"idi":1,"ds":"es_tag2"},
+                {"idi":2,"ds":"en_tag2"},
+                {"idi":3,"ds":"pt_tag2"}
+        ] 
+    },    
+    {
+        "id":3, 
+        "dataTrad":[
+                {"idi":1,"ds":"es_tag3"},
+                {"idi":2,"ds":"en_tag3"},
+                {"idi":3,"ds":"pt_tag3"}
+        ] 
+    }
+]
