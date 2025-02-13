@@ -218,7 +218,7 @@ section{
   }
 }
  
-.tooltip{ 
+body:not(.listGames) .tooltip{ 
   visibility: visible!important;
   opacity: 1!important;
   display: inline-block!important;
@@ -257,6 +257,48 @@ section{
   } 
 }
 
+body.listGames .tooltip{
+  visibility: visible!important;
+  opacity: 1!important;
+  display: inline-block!important;
+  &-inner{
+    padding-bottom: 2rem!important;
+    background-color: $blue8;
+    border: 1px solid $purple1;
+    color:$black;
+    .fa-game{
+      top: .3rem;
+      right: 1rem;
+      position: absolute;
+      font-size: 3.5rem;
+      opacity: .5;
+    }
+    h2{
+      text-align: left;
+      padding:0 0 0 1rem;
+      font-size: 2rem!important;
+      font-weight: bold;
+      border-radius: 5px 5px 0 0;
+      color:$black;
+    }
+    p{
+      font-size: 1.2rem;
+      text-align: left;
+      padding: .5rem 0 0 0;
+      margin: 0 1rem 0 1.7rem; 
+      color:$black;
+        strong{
+          font-weight: 700;
+        }
+        &:last-child{
+          margin-bottom: 0;
+        }
+    }
+  }
+}
+
+
+
 #animation_container{
   display: flex;
   justify-content: center;
@@ -264,14 +306,12 @@ section{
   width: 100%!important;
   position: relative;
   top: 8rem;
-  @media screen and (map-get($rd-types, md)){
  
     height: 206px!important;
     canvas{
       width: 206px!important;
       height: 206px!important;
     }
-  }   
   @media screen and (map-get($rd-types, lg)){ 
     height: 300px!important;
     canvas{

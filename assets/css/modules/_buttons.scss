@@ -46,12 +46,25 @@ button{outline:none;}
     }
 
     &-help{
-      color: $blue7;
-      font-size: 1.8rem !important;
-      top: -10px;
+      color: $blue;
+      font-size: 2.5rem !important;
+      top: -13px;
       z-index: 99999999;
-      right: -.8rem !important;
-   }
+      right: -1.4rem !important;
+
+      .btn--arcade &{
+        color: $yellow2;
+      }
+      .btn--versus &{
+        color: $blue;
+      }
+      .btn--carrera &{
+        color: $green9;
+      }
+      .btn--pursuit &{
+        color: $red9;
+      }
+    }
 
     &[disabled],&:disabled,&.disabled { 
         box-shadow: none;
@@ -173,8 +186,8 @@ button{outline:none;}
         animation-iteration-count: 1;        
       }
       & em{
-        width: 11rem;
-        height: 10rem;
+        width: 9rem;
+        height: 8rem;
         background-repeat: no-repeat;
         background-size: contain;
         background-image: url("../../../assets/images/next2.png");
@@ -341,6 +354,8 @@ button{outline:none;}
       pointer-events: none;
       cursor: default;
     }
+
+ 
 
     // ADMIN
     .menu-buttons--admin  & {
@@ -526,4 +541,28 @@ button{outline:none;}
   }
 }
 
- 
+/* Pulse Shrink */
+@-webkit-keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse-shrink { 
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active { 
+  animation-name: hvr-pulse-shrink; 
+  animation-duration: 0.3s; 
+  animation-timing-function: linear; 
+  animation-iteration-count: infinite; 
+  animation-direction: alternate;
+}
